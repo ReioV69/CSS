@@ -1,0 +1,113 @@
+/* ÜLD */
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 20;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: #5d5d5d;
+}
+
+.container{
+    max-width: 1260px;
+    margin: auto;
+}
+
+/* PÄIS JA MENÜÜ */
+
+.header{
+    display: flex;
+    line-height: 70px;
+}
+
+.logo{
+    background-color: #ff3600;
+}
+
+.menu ul, .footer ul{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 40px;
+}
+
+.logo h1{
+    color: #fff;
+    font-size: 28px;
+    margin: 0 50px;
+}
+
+.menu{
+    background-color: #333;
+    width: 100%;
+}
+
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.menu a:hover{
+    color: #ff3600;
+}
+/* LOEND ON ul */
+.menu ul{
+    list-style-type: none;
+}
+
+.active{
+    color: #ff3600 !important;
+}
+/* SISU */
+
+.content{
+    margin: 100px 60px;
+    display: flex; 
+}
+
+.left{
+    max-width: 80%;
+    padding-right: 30px;
+}
+
+.left img, .right img{
+    width: 100%;
+}
+
+.right{
+    max-width: 20%;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.content h1, .content h2{
+    margin: 20px 0;
+    color: #555;
+}
+/* JALUS */
+
+.footer ul{
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    margin-left: 60px;
+}
+
+.footer a{
+    color: #ff3600;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.footer a:hover{
+    color: #666;
+}
+
+.footer ul{
+    list-style-type: none;
+}
+
+.footer li{
+    margin-left: 60px;
+}
