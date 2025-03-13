@@ -1,44 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Reio" />
     <link rel="stylesheet" href="style03.css" />
     <title>CSS 3</title>
   </head>
   <body>
-    <div class="container">
-      <div class="header">
+    <header class="banner">
+      <div class="banner-content">
         <img
           src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairSides&accessoriesType=Kurt&hairColor=Platinum&facialHairType=Blank&clotheType=GraphicShirt&clotheColor=PastelYellow&graphicType=Bat&eyeType=Surprised&eyebrowType=AngryNatural&mouthType=Vomit&skinColor=Light"
-          alt=""
+          alt="Avatar"
+          class="avatar"
         />
         <h1>Veebilõust</h1>
-        <p>Minu Mario antud kodutöö mida väga ootasin ja soovisin</p>
+        <p class="lause">
+          <i>Mario antud kodutöö mida väga ootasin ja soovisin</i>
+        </p>
       </div>
-      <div class="content">
-        <div class="left">
-          <img src="https://picsum.photos/id/420/600/400" alt="" />
-          <div class="right">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
-              repellendus in eaque, consequatur a, dolores velit dolorem commodi
-              neque sint enim. Accusamus officiis incidunt, laboriosam eveniet
-              ad maxime temporibus commodi!
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-              laborum repudiandae dolores autem! Reprehenderit, odio temporibus
-              aperiam rem recusandae explicabo, natus nisi ipsam saepe deserunt
-              porro accusamus quo sed laborum!
-            </p>
-            <hr />
-          </div>
-          <div class="footer">
-            <p>Tegin töö õigeaegselt 2025</p>
-          </div>
+    </header>
+
+    <main class="content">
+      <div class="content-box">
+        <img
+          src="https://picsum.photos/id/420/290/400"
+          alt="Pilt"
+          class="content-image"
+        />
+        <div class="text-content">
+          <h1>Lorem Ipsum</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+            imperdiet ex ex, quis sollicitudin nunc eleifend sed. Suspendisse ut
+            dui laoreet, dictum arcu eu, vulputate neque. Aenean justo est,
+            fringilla lacinia dignissim nec, pellentesque ac ipsum. Nulla
+            iaculis mi et lectus luctus viverra quis eget sapien. Praesent
+            volutpat nibh vitae enim lacinia ultrices. Integer non pulvinar
+            ligula, at ultricies magna.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+            imperdiet ex ex, quis sollicitudin nunc eleifend sed. Suspendisse ut
+            dui laoreet, dictum arcu eu, vulputate neque. Aenean justo est,
+            fringilla lacinia dignissim nec, pellentesque ac ipsum. Nulla
+            iaculis mi et lectus luctus viverra quis eget sapien. Praesent
+            volutpat nibh vitae enim lacinia ultrices. Integer non pulvinar
+            ligula, at ultricies magna.
+          </p>
         </div>
       </div>
-    </div>
+    </main>
+
+    <footer class="footer">
+      <p>Tegin töö õigeaegselt 2025</p>
+    </footer>
   </body>
 </html>
